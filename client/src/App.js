@@ -10,7 +10,7 @@ const App = () =>{
   if(userData === null){
     return (
       <div className="container">
-        <div className="container-title">Welcome to our Chat App</div>
+        <div className="container-title">Welcome to SayIt!</div>
         <LoginForm
           setUserDataForChat={setUserData}
         />
